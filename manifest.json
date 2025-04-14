@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "storyseedling-textwrap",
+    "version": "1.0",
+    "description": "Fixes the text wrapping on storyseedling.com",
+    "content_scripts": [
+      {
+        "matches": ["*://storyseedling.com/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
